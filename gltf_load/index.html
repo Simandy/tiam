@@ -57,8 +57,8 @@
 						// use of RoughnessMipmapper is optional
 						const roughnessMipmapper = new RoughnessMipmapper( renderer );
 
-						const loader = new GLTFLoader().setPath( 'models/gltf/cubey.glt/' );
-						loader.load( 'cubey.glt', function ( gltf ) {
+						const loader = new GLTFLoader().setPath( 'models/cubey.glt/' );
+						loader.load( 'cubey', function ( gltf ) {
 
 							gltf.scene.traverse( function ( child ) {
 
